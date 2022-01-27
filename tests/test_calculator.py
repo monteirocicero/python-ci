@@ -8,7 +8,7 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(4, add(2, 2))
 
     def test_subtract(self):
-        self.assertEqual(3, subtract(9, 5))
+        self.assertEqual(2, subtract(9, 5))
 
 
 if __name__ == '__main__':
